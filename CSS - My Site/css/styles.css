@@ -1,0 +1,172 @@
+/**************************TAG SELECTORS (General)***********************/
+body  {
+      color: #40514E;
+      margin: 0;
+      text-align: center;
+      font-family: "Merriweather", serif; /*Stick to two fonts per design*/
+      /*background-color: #E4F9F5;*/
+      }
+
+div   {
+      padding: 20px;
+      margin: 0px 0px 0px 0px; /*top-right-bottom-left*/
+      }
+
+h1    {
+      font-size: 5.625rem; /*em = M = the width of the letter "M". */
+      color: #66BFBF;
+      margin: 50px auto 0px auto;
+      font-family: "Sacramento", sans-serif;
+      line-height: 1.2;
+      }
+
+h2    {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.5rem;
+      color: #66BFBF;
+      font-weight: normal;
+      padding: 10px;;
+      }
+
+h3    {
+      color: #66BFBF;
+      font-family: "Montserrat", sans-serif;
+      margin:0;
+      }
+
+p     {
+      line-height: 2;
+      }
+
+a     {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    }
+
+a:hover {
+        color: #EAF6F6;
+        }
+
+
+/*************************CLASS SELECTORS******************************/
+
+.topContainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {
+position: center;
+margin: 100px auto 100px auto;
+}
+
+.bottomContainer {
+background-color: #66BFBF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.topCloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.picture{
+  width:200px;;
+}
+
+.fullPic {
+  width: 50%;
+}
+
+.skill-row {
+  padding: 50px;
+  margin: auto auto 20px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillPic1 {
+  width: 300px;
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: left;
+}
+
+.skillPic2 {
+  width: 300px;
+  margin-left: 30px;
+  float: right;
+}
+
+
+.leftText {
+  align-content:leftText;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.fiveDots {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .footer-link {
+    margin: 30px 30px;
+  }
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
